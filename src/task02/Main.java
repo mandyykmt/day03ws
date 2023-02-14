@@ -6,13 +6,48 @@ import java.util.Scanner;
 public class Main {
 
     public static String dirName = "Task02";
-    public static String fileName = "";
-    public static String dirFileName = dirName + File.separator + fileName;
+    public static String dirFileName = dirName + File.separator;
 
     public static void main(String[] args) {
-        Scanner fileName = new Scanner(System.in);
 
-        System.out.print(dirFileName); 
+        // assign a number to each file name
+        // e.g. 1 = Cat in the hat
+
+        // show user which number corresponds to which file
+        // To do : Print number+filename instead of hardcoding 
+        System.out.println("Files available"); 
+        System.out.println();
+        System.out.println("1. Cat in the hat");
+        System.out.println("2. Fox in socks");
+        System.out.println("3. Happy birthday to you");
+        System.out.println("4. Oh the places you'll go");
+        System.out.println("Q to quit program"); 
+        System.out.println();
+
+        // prompt user to select file 
+        Scanner fileNumber = new Scanner(System.in); 
+        System.out.print("Please select file (e.g 1 ): "); 
+
+        // remove all punctuations of selected file and replace with a space
+
+        // ignore casing for all words in selected file
+
+        // identify all unique words in the selected file
+
+        // assign a number to each unique word
+
+        // store the maximum number of unique words as an int max
+
+        // use a loop function to count
+        for (int i = 1; i <= max; i++) {
+            System.out.println(); // print word corresponding to i
+            for ()
+                System.out.println("tab_word_count"); 
+        }
+
+        
+
+        // System.out.print(dirFileName); 
         
     }
 
